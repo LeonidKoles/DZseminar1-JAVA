@@ -1,3 +1,6 @@
+// Вычислить n-ое треугольного число(сумма чисел от 1 до n), n! 
+// (произведение чисел от 1 до n)
+
 import java.util.Scanner;
 
 public class zadacha1 {
@@ -19,7 +22,8 @@ public class zadacha1 {
         int mylt = factorial(f);
         System.out.println(mylt);
         n.close();
-        fac.close(); 
+        fac.close();
+
 
         }  
         public static int factorial(int f){
